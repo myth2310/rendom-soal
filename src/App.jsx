@@ -7,9 +7,9 @@ function App() {
   const [tombolAktif, setTombolAktif] = useState(true);
 
   const soalAcak = [
-    { kode: "Kode Soal Anda 1", gambar: "/public/giphy1.webp" },
-    { kode: "Kode Soal Anda 2", gambar: "/public/giphy2.webp" },
-    { kode: "Kode Soal Anda 3", gambar: "/public/giphy3.webp" }
+    { kode: "Kode Soal Anda 1", gambar: "giphy1.webp" },
+    { kode: "Kode Soal Anda 2", gambar: "giphy2.webp" },
+    { kode: "Kode Soal Anda 3", gambar: "giphy3.webp" }
   ];
 
   const acakKodeSoal = () => {
