@@ -7,9 +7,9 @@ function App() {
   const [tombolAktif, setTombolAktif] = useState(true);
 
   const soalAcak = [
-    { kode: "Kode Soal Anda 1", gambar: "giphy1.webp" },
-    { kode: "Kode Soal Anda 2", gambar: "giphy2.webp" },
-    { kode: "Kode Soal Anda 3", gambar: "giphy3.webp" }
+    { kode: "Kode Homework 1", gambar: "giphy4.webp" },
+    { kode: "Kode Homework 2", gambar: "giphy5.webp" },
+    { kode: "Kode Homework 3", gambar: "giphy6.webp" }
   ];
 
   const acakKodeSoal = () => {
@@ -24,10 +24,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>Soal Algoritma dan Struktur Data 2</h2>
+        <h2>Algoritma dan Struktur Data 2</h2>
         {gambar && <img src={gambar} alt="Gambar Soal" className="gambar-soal" />}
         <p className='code-soal'>{soal}</p>
-        <button onClick={acakKodeSoal} disabled={!tombolAktif}>Acak Kode Soal</button>
+        <button onClick={acakKodeSoal} disabled={!tombolAktif}>Kode Soal</button>
       </header>
     </div>
   );
